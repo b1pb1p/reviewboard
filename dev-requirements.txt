@@ -25,3 +25,4 @@ wheel
 ReviewBoard[ldap]
 ReviewBoard[s3]
 ReviewBoard[swift]
+django>=2.2.25 # not directly required, pinned by Snyk to avoid a vulnerability
