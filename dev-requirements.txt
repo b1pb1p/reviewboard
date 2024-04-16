@@ -25,3 +25,4 @@ wheel
 ReviewBoard[ldap]
 ReviewBoard[s3]
 ReviewBoard[swift]
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
