@@ -10,7 +10,7 @@ nose
 # Python 3.9 support for now when not running on Linux.
 p4python; python_version <= '3.8' or platform_system == 'Linux'
 
-setuptools>=18.2
+setuptools>=78.1.1
 
 # As of subvertpy 0.10.1, Python 3.8 support is busted, resulting in a
 # SystemError during usage (though installation works fine). 0.10.1 was
@@ -25,3 +25,4 @@ wheel
 ReviewBoard[ldap]
 ReviewBoard[s3]
 ReviewBoard[swift]
+django>=4.2.21 # not directly required, pinned by Snyk to avoid a vulnerability
